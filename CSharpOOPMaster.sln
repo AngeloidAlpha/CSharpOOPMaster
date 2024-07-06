@@ -21,11 +21,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Inheritance", "01.Inheri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "02.Exercise\01.Inheritance\Person\Person.csproj", "{CB6A3004-1F86-4197-A4C5-562A26F27342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo", "02.Exercise\01.Inheritance\Zoo\Zoo.csproj", "{3401B7D2-C12F-4418-9DB4-2459C11F4180}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo", "02.Exercise\01.Inheritance\Zoo\Zoo.csproj", "{3401B7D2-C12F-4418-9DB4-2459C11F4180}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayersAndMonsters", "02.Exercise\01.Inheritance\PlayersAndMonsters\PlayersAndMonsters.csproj", "{A1AE9336-FF78-42CB-9764-1093A621941B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayersAndMonsters", "02.Exercise\01.Inheritance\PlayersAndMonsters\PlayersAndMonsters.csproj", "{A1AE9336-FF78-42CB-9764-1093A621941B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedForSpeed", "02.Exercise\01.Inheritance\NeedForSpeed\NeedForSpeed.csproj", "{E8C9079F-9C12-4A2C-8F5B-6CA098CF6468}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeedForSpeed", "02.Exercise\01.Inheritance\NeedForSpeed\NeedForSpeed.csproj", "{E8C9079F-9C12-4A2C-8F5B-6CA098CF6468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant", "02.Exercise\01.Inheritance\Restaurant\Restaurant.csproj", "{8C987A38-F92F-4797-B90E-FEF5348A6491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{E8C9079F-9C12-4A2C-8F5B-6CA098CF6468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8C9079F-9C12-4A2C-8F5B-6CA098CF6468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8C9079F-9C12-4A2C-8F5B-6CA098CF6468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C987A38-F92F-4797-B90E-FEF5348A6491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C987A38-F92F-4797-B90E-FEF5348A6491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C987A38-F92F-4797-B90E-FEF5348A6491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C987A38-F92F-4797-B90E-FEF5348A6491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{3401B7D2-C12F-4418-9DB4-2459C11F4180} = {40D53E02-2BD5-4E26-896A-BA4C02AC2102}
 		{A1AE9336-FF78-42CB-9764-1093A621941B} = {40D53E02-2BD5-4E26-896A-BA4C02AC2102}
 		{E8C9079F-9C12-4A2C-8F5B-6CA098CF6468} = {40D53E02-2BD5-4E26-896A-BA4C02AC2102}
+		{8C987A38-F92F-4797-B90E-FEF5348A6491} = {40D53E02-2BD5-4E26-896A-BA4C02AC2102}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D63631E2-3DAD-420C-9F2D-35BDF7E09F68}
