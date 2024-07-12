@@ -40,7 +40,9 @@ student.AddAvarageGrade("BEL", 3.1);
 // защото нямаме get и set тук няма да ни позволи да добавяме нещо невалидно което заобикаля условията ни
 // student.AvarageGrades.Add("BEL", 15.20);
 Console.WriteLine(student.Name);
-Console.WriteLine(student.Age);
+// student.Age дава грешка защото е protected и няма да може да бъде извикан извън класа си и дъщерните класове
+// Console.WriteLine(student.Age);
+// за да изпишем годините може да създадем метод който да изписва на студента годините и да го извикаме него
 student.PrintAvarageGrade();
 
 Student studentCurrent = student.GetCurrent();
