@@ -34,12 +34,19 @@ namespace PersonsInfo
                 catch (Exception ex) // ако имаме грешка в try то в catch-a ще вземе throw exeption-a и ще ни го изпише в конзолата
                 { 
                     Console.WriteLine(ex.Message); 
-                }
+                } 
             }
+            /* задача 3
             var parcentage = decimal.Parse(Console.ReadLine());
             persons.ForEach(p => p.IncreaseSalary(parcentage));
             persons.ForEach(p => Console.WriteLine(p.ToString()));
+            */
+            Team team = new Team("SoftUni");
 
+            foreach (Person person in persons)
+            {
+                team.AddPlayer(person);
+            }
         }
     }
 }
