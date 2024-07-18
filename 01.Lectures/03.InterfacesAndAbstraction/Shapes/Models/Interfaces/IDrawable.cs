@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace __Shapes
+namespace Shapes.Models.Interfaces
 {
     public interface IDrawable
     {
-        void Draw();
+        public void Draw();
     }
 }
