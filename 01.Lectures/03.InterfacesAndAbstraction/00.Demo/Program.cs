@@ -10,7 +10,8 @@ namespace _00.Demo
     {
         static void Main(string[] args)
         {
-            Human human = new Human();
+            Person person = new("Slavi", 20);
+            person.PrintNameAndAge();
         }
     }
 }
