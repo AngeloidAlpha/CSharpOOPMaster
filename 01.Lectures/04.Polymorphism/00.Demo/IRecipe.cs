@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace _00.Demo
 {
-    public interface IRecipe
+    // може да наследим и IBaseRecipe в IRecipe
+    public interface IBaseRecipe
     {
-        void GetIngridents();
         void Mix();
         void Prepare();
+    }
+    public interface IRecipe : IBaseRecipe
+    {
+        void GetIngridents();
 
     }
 }
