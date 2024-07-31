@@ -2,16 +2,16 @@
 {
     public class Chicken
     {
-        public const int MinAge = 0;
-        public const int MaxAge = 15;
+        private const int MinAge = 0;
+        private const int MaxAge = 15;
 
-        protected string name;
-        internal int age;
+        private string name;
+        private int age;
 
-        internal Chicken(string name, int age)
+        public Chicken(string name, int age)
         {
-            this.name = name;
-            this.age = age;
+            this.Name = name;
+            this.Age = age;
         }
 
         public string Name
@@ -20,10 +20,12 @@
             {
                 return this.name;
             }
-
-            internal set
+            // применяне на нивата на сигурност public -> private -> protected -> constant
+            private set
             {
-                this.name = value;
+                if (string.IsNullOrWhiteSpace(value)) 
+                    throw new ArgumentException($"{nameof(Name)} cannot be empty.");
+                    this.name = value;
             }
         }
 
@@ -34,12 +36,15 @@
                 return this.age;
             }
 
-            protected set
+            private set
             {
+                if (value < MinAge || value > MaxAge)
+                    throw new ArgumentException($"{nameof(Age)} should be between {MinAge} and {MaxAge}.");
                 this.age = value;
             }
         }
-
+        // и 2та вида на записване са верни това е съкратения вид
+        // public double ProductPerDay => this.CalculateProductPerDay();
         public double ProductPerDay
         {
             get
@@ -47,9 +52,18 @@
                 return this.CalculateProductPerDay();
             }
         }
-
-        public double CalculateProductPerDay()
+        //този метод се използва само в този клас заради това ще го вдигнем до private
+        private double CalculateProductPerDay()
         {
+            return this.Age switch
+            {
+                <=3 => 1.5,
+                <=7 =>2,
+                <=11 => 1,
+                _ => 0.75,
+            };
+            // това може да бъде изписано с експрешън 
+            /*
             switch (this.Age)
             {
                 case 0:
@@ -70,6 +84,7 @@
                 default:
                     return 0.75;
             }
+            */
         }
     }
 }
