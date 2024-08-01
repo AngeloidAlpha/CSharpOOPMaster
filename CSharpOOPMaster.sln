@@ -49,9 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00.Demo", "01.Lectures\04.P
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Encapsulation", "02.Encapsulation", "{89D13C74-8800-4052-9ABB-65EF8D4C2F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Box", "02.Exercise\02.Encapsulation\Box\Box.csproj", "{3C43961F-263C-4F29-B247-8B5A700F6016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Box", "02.Exercise\02.Encapsulation\Box\Box.csproj", "{3C43961F-263C-4F29-B247-8B5A700F6016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalFarm", "02.Exercise\02.Encapsulation\AnimalFarm\AnimalFarm.csproj", "{84772123-8FE7-445F-9928-32681635CFB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalFarm", "02.Exercise\02.Encapsulation\AnimalFarm\AnimalFarm.csproj", "{84772123-8FE7-445F-9928-32681635CFB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ShoppingSpree", "02.Exercise\02.Encapsulation\03.ShoppingSpree\03.ShoppingSpree.csproj", "{394DF423-9650-411A-AE43-D881D49D15BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +129,10 @@ Global
 		{84772123-8FE7-445F-9928-32681635CFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84772123-8FE7-445F-9928-32681635CFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84772123-8FE7-445F-9928-32681635CFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394DF423-9650-411A-AE43-D881D49D15BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394DF423-9650-411A-AE43-D881D49D15BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394DF423-9650-411A-AE43-D881D49D15BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394DF423-9650-411A-AE43-D881D49D15BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +160,7 @@ Global
 		{89D13C74-8800-4052-9ABB-65EF8D4C2F4E} = {7E0C9458-5D95-40B0-9009-5B932A828FE0}
 		{3C43961F-263C-4F29-B247-8B5A700F6016} = {89D13C74-8800-4052-9ABB-65EF8D4C2F4E}
 		{84772123-8FE7-445F-9928-32681635CFB3} = {89D13C74-8800-4052-9ABB-65EF8D4C2F4E}
+		{394DF423-9650-411A-AE43-D881D49D15BB} = {89D13C74-8800-4052-9ABB-65EF8D4C2F4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D63631E2-3DAD-420C-9F2D-35BDF7E09F68}
