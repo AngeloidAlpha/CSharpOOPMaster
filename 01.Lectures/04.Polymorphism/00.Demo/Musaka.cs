@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _00.Demo
 {
-    public class Musaka : IRecipe
+    public abstract class Musaka : IRecipe
     {
         public void GetIngridents()
         {
@@ -32,7 +32,23 @@ namespace _00.Demo
         }
         public void PrintName()
         {
+            // не се пише проверка is в майчините класове
+            // начин по който не трябва да проверяваме за създадената инстанция
+            // защото всеки нов клас с нов вид мусака ще трябва да създаваме нов иф
+            /*
+            if (this is VegetableMusaka)
+            {
+                Console.WriteLine("I am vegetable Musaka");
+            }
+            if (this is OnlyMeatMusaka)
+            {
+                Console.WriteLine("I am only meat Musaka");
+            }
+            */
             Console.WriteLine("I am musaka");
         }
+        // така ще може всеки клас да си имплементира свой override за името
+        // той ще е празен тук а в дъщерните ще е описан каквото е нужно за него
+        public abstract void PrintAbstractName();
     }
 }

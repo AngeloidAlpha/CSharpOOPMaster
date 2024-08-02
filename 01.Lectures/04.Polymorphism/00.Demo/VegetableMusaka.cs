@@ -15,6 +15,11 @@ namespace _00.Demo
     }
     public class VegetableMusaka : Musaka, IVegetableRecipe
     {
+        public override void PrintAbstractName()
+        {
+            throw new NotImplementedException();
+        }
+
         public void PrintType()
         {
             Console.WriteLine("I am vegetables only!");

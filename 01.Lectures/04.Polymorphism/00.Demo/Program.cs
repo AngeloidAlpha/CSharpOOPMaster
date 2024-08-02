@@ -88,8 +88,21 @@ public class Program
         {
             Console.WriteLine(x);
         }
-    }
 
+        IRecipe recipeLamb = new Lamb();
+        // Lamb lamb =(Lamb)recipeMusaka; // няма да успея да го кастна така
+        // обаче може да направим кастване с as
+        // то или ще успее да го кастне или ще върне null (за това проверките is са най-често с null)
+        Lamb lambPotato = recipeLamb as Lamb;
+        if (lambPotato is not null)
+        {
+            lambPotato.GetIngridents();
+        }
+
+        // Runtime полиморфизъм
+        // погледни лекцията или упражненията
+
+    }
     // логиката: не ме интересува как го прави а какво прави
     // в случая IRecipe прави рецептата
     // използваме тука полиморфичен обект
