@@ -53,15 +53,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Box", "02.Exercise\02.Encap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalFarm", "02.Exercise\02.Encapsulation\AnimalFarm\AnimalFarm.csproj", "{84772123-8FE7-445F-9928-32681635CFB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ShoppingSpree", "02.Exercise\02.Encapsulation\03.ShoppingSpree\03.ShoppingSpree.csproj", "{394DF423-9650-411A-AE43-D881D49D15BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.ShoppingSpree", "02.Exercise\02.Encapsulation\03.ShoppingSpree\03.ShoppingSpree.csproj", "{394DF423-9650-411A-AE43-D881D49D15BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operations", "01.Lectures\04.Polymorphism\Operations\Operations.csproj", "{ED4C4115-62A1-43A4-9EBA-4A02FEB157BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "01.Lectures\04.Polymorphism\Animals\Animals.csproj", "{A95E37E3-FDC5-471B-B3DC-BD878E8767A2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.ExceptionAndErrorHandling", "05.ExceptionAndErrorHandling", "{CFECCB1E-149F-4975-8E59-B1E009C20684}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05", "05", "{CFECCB1E-149F-4975-8E59-B1E009C20684}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.Demo", "01.Lectures\05.ExceptionAndErrorHandling\00.Demo\00.Demo.csproj", "{8C65E6B4-4EDD-45FA-9530-45037527952B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaCalories", "02.Exercise\02.Encapsulation\PizzaCalories\PizzaCalories.csproj", "{ED18D59F-AA95-4DDA-A177-2E9B05A6403A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{8C65E6B4-4EDD-45FA-9530-45037527952B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C65E6B4-4EDD-45FA-9530-45037527952B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C65E6B4-4EDD-45FA-9530-45037527952B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED18D59F-AA95-4DDA-A177-2E9B05A6403A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED18D59F-AA95-4DDA-A177-2E9B05A6403A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED18D59F-AA95-4DDA-A177-2E9B05A6403A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED18D59F-AA95-4DDA-A177-2E9B05A6403A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -185,6 +191,7 @@ Global
 		{A95E37E3-FDC5-471B-B3DC-BD878E8767A2} = {F1A1178A-E098-4702-BD04-78F49A34630A}
 		{CFECCB1E-149F-4975-8E59-B1E009C20684} = {0A656F76-4BF7-4787-97BD-61959B77A5AF}
 		{8C65E6B4-4EDD-45FA-9530-45037527952B} = {CFECCB1E-149F-4975-8E59-B1E009C20684}
+		{ED18D59F-AA95-4DDA-A177-2E9B05A6403A} = {89D13C74-8800-4052-9ABB-65EF8D4C2F4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D63631E2-3DAD-420C-9F2D-35BDF7E09F68}
