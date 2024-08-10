@@ -15,7 +15,8 @@ namespace PizzaCalories
 
         public Pizza(string name)
         {
-            if (string.IsNullOrWhiteSpace(name) || name.Length > MaxNameLength) throw new ArgumentException($"Pizza name should be between 1 and {MaxNameLength} symbols.");
+            if (string.IsNullOrWhiteSpace(name) || name.Length > MaxNameLength) 
+                throw new ArgumentException($"Pizza name should be between 1 and {MaxNameLength} symbols.");
             this.Name = name;
 
             this._toppings = new List<Topping>();
@@ -36,7 +37,7 @@ namespace PizzaCalories
                 throw new InvalidOperationException($"Number of toppings should be in range [0..{MaxToppingsCount}].");
             this._toppings.Add(topping);
         }
-
+        // в програмата като извиквам отговора с Console.WriteLine(pizza); то всъщност достъпвам ToString() който сме написали отдолу
         public override string ToString() => $"{this.Name} - {this.TotalCalories:f2} Calories.";
     }
 }
